@@ -1054,6 +1054,13 @@ razer_device __DQ_DEVICES[] = {
         .synapse = synapse3,
         .type = accessory
     },
+    {
+        .shortName = "blackwidow_v3_tkl_sw",
+        .fullName = "Razer BlackWidow V3 Tenkeyless",
+        .usbId = 0x0a24,
+        .synapse = synapse3,
+        .type = keyboard
+    },
 };
 
 #endif /* DeviceQuery_Devices_h */
